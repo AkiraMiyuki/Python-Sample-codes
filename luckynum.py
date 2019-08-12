@@ -3,15 +3,15 @@
 #goal of the code is to check if
 #input number is lucky or not.
 #we consider that the number is
-#positive integer.
+#a positive integer.
 
 
 
 n = int(input())
 #the above line is used to check
-#if the input does not contain
-#letters and convert a flot to int.
-#in the former cse it returns errors.
+#if the input contains
+#letters and convert a float to int.
+#in the former case it returns errors.
 count = 0
 check = str(2345680)
 #common properties between string and
